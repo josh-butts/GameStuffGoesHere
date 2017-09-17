@@ -9,14 +9,23 @@
     <sprite>sprites\spr_Gear</sprite>
     <sprite>sprites\spr_Floor</sprite>
     <sprite>sprites\spr_Wall</sprite>
+    <sprite>sprites\spr_GearMoving</sprite>
+    <sprite>sprites\spr_GearWall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_GearAnimation.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_Floor</object>
+    <object>objects\obj_GearWall</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_First</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

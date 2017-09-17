@@ -29,8 +29,9 @@
 grav = 0.4;
 hsp = 0;
 vsp = 0;
-jumpspeed = 1;
+jumpspeed = 5;
 movespeed = 4;
+
 
 </string>
           </argument>
@@ -55,9 +56,10 @@ movespeed = 4;
           <argument>
             <kind>1</kind>
             <string>//Get the player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_space);
+key_right = keyboard_check(ord('D'));
+key_left = -keyboard_check(ord('A'));
+key_jump = keyboard_check_pressed(ord('W'));
+key_down = keyboard_check(ord('S'));
 
 //React to inputs
 move = key_left + key_right;
@@ -91,6 +93,7 @@ if (place_meeting(x,y+vsp,obj_Wall))
 }
 y += vsp;
 
+scr_GearAnimation();
 </string>
           </argument>
         </arguments>
