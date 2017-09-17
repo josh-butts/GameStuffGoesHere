@@ -1,14 +1,30 @@
 //Animation
-//image_speed = abs(hsp) * 7;
-if(move != 0) image_xscale = move;
 
-if (move != 0) 
+//on gear wall
+if(place_meeting(x,y,obj_GearWall))
 {
-sprite_index = spr_GearMoving
-image_speed = abs(hsp) * .1;
+    if(vert_move != 0)
+    {
+        image_xscale = -vert_move;
+        sprite_index = spr_GearMoving;
+        image_speed = abs(vsp) * 0.1;
+    }
+    else
+    {
+        sprite_index = spr_Gear;
+    }
 }
-else 
+else
 {
-sprite_index = spr_Gear
+    if (move != 0) 
+    {
+        image_xscale = move;
+        sprite_index = spr_GearMoving;
+        image_speed = abs(hsp) * 0.1;
+    }
+    else 
+    {
+        sprite_index = spr_Gear;
+    }
 }
 

@@ -16,6 +16,8 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_GearAnimation.gml</script>
+    <script>scripts\scr_NormalMovement.gml</script>
+    <script>scripts\scr_GearWallMovement.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Player</object>
