@@ -5,4 +5,5 @@ hsp = move * movespeed;
 
 vsp = vert_move * movespeed;
 
+image_xscale = -1;
 

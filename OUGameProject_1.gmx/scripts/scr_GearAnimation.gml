@@ -14,6 +14,15 @@ if(place_meeting(x,y,obj_GearWall))
         sprite_index = spr_Gear;
     }
 }
+else if (place_meeting(x,y,obj_GearWallLeft))
+{
+    if(vert_move !=0)
+    {
+        image_xscale = vert_move;
+        sprite_index = spr_GearMoving;
+        image_speed = abs(vsp) * 0.1;
+    }
+}
 else
 {
     if (move != 0) 
