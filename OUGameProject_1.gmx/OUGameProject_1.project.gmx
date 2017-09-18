@@ -11,6 +11,7 @@
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_GearMoving</sprite>
     <sprite>sprites\spr_GearWall</sprite>
+    <sprite>sprites\spr_GearWallLeft</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -24,6 +25,7 @@
     <object>objects\obj_Wall</object>
     <object>objects\obj_Floor</object>
     <object>objects\obj_GearWall</object>
+    <object>objects\obj_GearWallLeft</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_First</room>
