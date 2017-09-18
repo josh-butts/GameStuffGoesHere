@@ -65,7 +65,7 @@ move = key_left + key_right;
 vert_move = key_up + key_down;
 
 //react to inputs
-if (place_meeting(x,y,obj_GearWall))
+if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft)))
 {
     scr_GearWallMovement();
 }
