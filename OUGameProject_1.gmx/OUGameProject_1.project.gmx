@@ -12,6 +12,7 @@
     <sprite>sprites\spr_GearMoving</sprite>
     <sprite>sprites\spr_GearWall</sprite>
     <sprite>sprites\spr_GearWallLeft</sprite>
+    <sprite>sprites\spr_RollingHitBox</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

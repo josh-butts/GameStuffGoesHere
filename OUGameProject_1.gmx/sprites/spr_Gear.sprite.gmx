@@ -3,7 +3,7 @@
   <type>0</type>
   <xorig>32</xorig>
   <yorigin>32</yorigin>
-  <colkind>2</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>2</bboxmode>
@@ -17,8 +17,8 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>65</width>
-  <height>65</height>
+  <width>64</width>
+  <height>64</height>
   <frames>
     <frame index="0">images\spr_Gear_0.png</frame>
   </frames>
