@@ -29,7 +29,7 @@
     <object>objects\obj_GearWallLeft</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_First</room>
+    <room>rooms\rm_LevelOne</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
