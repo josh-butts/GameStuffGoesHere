@@ -26,11 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize Variables
-grav = 0.6;
+grav = 1;
 hsp = 0;
 vsp = 0;
 jumpspeed = 8;
 movespeed = 9;
+sfx = audio_emitter_create();
+audio_emitter_gain(sfx, 0.3);
 
 
 </string>
@@ -72,8 +74,17 @@ if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft)))
 else
 {
     scr_NormalMovement();
-}
     
+    //sound
+    if (hsp != 0 &amp;&amp; !audio_is_playing(snd_PlayerRoll) &amp;&amp; place_meeting(x,y+1,obj_Wall))
+    {
+        audio_play_sound_on(sfx, snd_PlayerRoll, 0, 0);
+    }
+    else if(hsp = 0)
+    {
+        audio_stop_sound(snd_PlayerRoll);
+    }
+}
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_Wall))

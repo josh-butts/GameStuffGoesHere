@@ -4,13 +4,18 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_PlayerRoll</sound>
+    <sound>sound\snd_Puzzle</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Gear</sprite>
     <sprite>sprites\spr_Floor</sprite>
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_GearMoving</sprite>
     <sprite>sprites\spr_GearWall</sprite>
+    <sprite>sprites\spr_GearSingle</sprite>
+    <sprite>sprites\spr_GearSingleLeft</sprite>
     <sprite>sprites\spr_GearWallLeft</sprite>
     <sprite>sprites\spr_RollingHitBox</sprite>
   </sprites>
@@ -27,6 +32,8 @@
     <object>objects\obj_Floor</object>
     <object>objects\obj_GearWall</object>
     <object>objects\obj_GearWallLeft</object>
+    <object>objects\obj_GearSingle</object>
+    <object>objects\obj_GearSingleLeft</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LevelOne</room>
