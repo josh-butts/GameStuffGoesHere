@@ -19,6 +19,9 @@
     <sprite>sprites\spr_GearSingleLeft</sprite>
     <sprite>sprites\spr_GearWallLeft</sprite>
     <sprite>sprites\spr_RollingHitBox</sprite>
+    <sprite>sprites\spr_Crusher</sprite>
+    <sprite>sprites\spr_Crusher1</sprite>
+    <sprite>sprites\spr_Crusher2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -35,6 +38,7 @@
     <object>objects\obj_GearWallLeft</object>
     <object>objects\obj_GearSingle</object>
     <object>objects\obj_GearSingleLeft</object>
+    <object>objects\obj_Crusher</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LevelOne</room>
