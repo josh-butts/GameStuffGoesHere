@@ -11,6 +11,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Gear</sprite>
+    <sprite>sprites\spr_GearSquish</sprite>
     <sprite>sprites\spr_Floor</sprite>
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_GearMoving</sprite>
@@ -20,8 +21,7 @@
     <sprite>sprites\spr_GearWallLeft</sprite>
     <sprite>sprites\spr_RollingHitBox</sprite>
     <sprite>sprites\spr_Crusher</sprite>
-    <sprite>sprites\spr_Crusher1</sprite>
-    <sprite>sprites\spr_Crusher2</sprite>
+    <sprite>sprites\spr_CrusherKill</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -39,6 +39,7 @@
     <object>objects\obj_GearSingle</object>
     <object>objects\obj_GearSingleLeft</object>
     <object>objects\obj_Crusher</object>
+    <object>objects\obj_CrusherKill</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LevelOne</room>
