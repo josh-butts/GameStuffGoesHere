@@ -25,6 +25,7 @@
     <sprite>sprites\spr_CrusherKill</sprite>
     <sprite>sprites\spr_Fire</sprite>
     <sprite>sprites\spr_Empty</sprite>
+    <sprite>sprites\spr__Fire_02</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
