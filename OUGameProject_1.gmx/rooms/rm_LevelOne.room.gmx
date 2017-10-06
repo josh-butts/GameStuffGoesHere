@@ -28,9 +28,9 @@ audio_play_sound_on(music, snd_Puzzle, true, 1);</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>3</page>
-    <xoffset>262</xoffset>
-    <yoffset>332</yoffset>
+    <page>0</page>
+    <xoffset>-23</xoffset>
+    <yoffset>-79</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
