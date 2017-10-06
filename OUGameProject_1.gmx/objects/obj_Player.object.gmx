@@ -33,7 +33,7 @@ jumpspeed = 4;
 movespeed = 4.5;
 sfx = audio_emitter_create();
 audio_emitter_gain(sfx, 0.3);
-
+dead = false;
 
 
 </string>
@@ -68,23 +68,32 @@ move = key_left + key_right;
 vert_move = key_up + key_down;
 
 //react to inputs
-if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft)))
+if (!dead)
 {
-    scr_GearWallMovement();
+    if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft)))
+    {
+        scr_GearWallMovement();
+    }
+    else
+    {
+        scr_NormalMovement();
+        
+        //sound
+        if (hsp != 0 &amp;&amp; !audio_is_playing(snd_PlayerRoll) &amp;&amp; place_meeting(x,y+1,obj_Wall))
+        {
+            audio_play_sound_on(sfx, snd_PlayerRoll, 0, 0);
+        }
+        else if(hsp = 0)
+        {
+            audio_stop_sound(snd_PlayerRoll);
+        }
+    }
 }
 else
 {
-    scr_NormalMovement();
-    
-    //sound
-    if (hsp != 0 &amp;&amp; !audio_is_playing(snd_PlayerRoll) &amp;&amp; place_meeting(x,y+1,obj_Wall))
-    {
-        audio_play_sound_on(sfx, snd_PlayerRoll, 0, 0);
-    }
-    else if(hsp = 0)
-    {
-        audio_stop_sound(snd_PlayerRoll);
-    }
+    hsp = 0;
+    vsp = 0;
+    move = 0;
 }
 
 //Horizontal Collision
@@ -110,7 +119,17 @@ if (place_meeting(x,y+vsp,obj_Wall))
 y += vsp;
 
 //animation
-scr_GearAnimation();
+if (!dead)
+{
+    scr_GearAnimation();
+}
+else
+{
+    scr_GearDeathAnimation();
+}
+
+
+
 </string>
           </argument>
         </arguments>
