@@ -4,14 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\snd_PlayerRoll</sound>
-    <sound>sound\snd_Puzzle</sound>
-    <sound>sound\snd_Jump</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Gear</sprite>
-    <sprite>sprites\spr_GearSquish</sprite>
     <sprite>sprites\spr_Floor</sprite>
     <sprite>sprites\spr_FloorMoving</sprite>
     <sprite>sprites\spr_Wall</sprite>
