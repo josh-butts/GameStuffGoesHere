@@ -11,7 +11,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Gear</sprite>
-    <sprite>sprites\spr_GearSquish</sprite>
+    <sprite>sprites\spr_GearDeath</sprite>
     <sprite>sprites\spr_Floor</sprite>
     <sprite>sprites\spr_FloorMoving</sprite>
     <sprite>sprites\spr_Wall</sprite>

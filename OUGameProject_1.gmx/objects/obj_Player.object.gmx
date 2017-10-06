@@ -33,7 +33,7 @@ jumpspeed = 4;
 movespeed = 4.5;
 sfx = audio_emitter_create();
 audio_emitter_gain(sfx, 0.3);
-
+dead = false;
 
 
 </string>
@@ -111,6 +111,19 @@ y += vsp;
 
 //animation
 scr_GearAnimation();
+
+//death
+/*if (dead)
+{
+    sprite_index = spr_GearDeath;
+    image_speed = 1;
+    if (image_index == 38)
+    {
+        instance_destroy(obj_Player);
+        instance_create(96, 704, obj_Player);
+    }
+}
+*/
 
 </string>
           </argument>
