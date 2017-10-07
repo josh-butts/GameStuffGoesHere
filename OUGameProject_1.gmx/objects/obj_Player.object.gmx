@@ -94,6 +94,11 @@ else
     hsp = 0;
     vsp = 0;
     move = 0;
+    //death sound
+    if (!audio_is_playing(snd_Death))
+    {
+        audio_play_sound_on(sfx, snd_Death, 0, 0);
+    }
 }
 
 //Horizontal Collision

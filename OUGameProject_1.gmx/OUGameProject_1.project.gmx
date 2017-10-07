@@ -8,6 +8,7 @@
     <sound>sound\snd_PlayerRoll</sound>
     <sound>sound\snd_Puzzle</sound>
     <sound>sound\snd_Jump</sound>
+    <sound>sound\snd_Death</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Gear</sprite>
