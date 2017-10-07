@@ -26,6 +26,8 @@
     <sprite>sprites\spr_CrusherKill</sprite>
     <sprite>sprites\spr_Fire</sprite>
     <sprite>sprites\spr_Empty</sprite>
+    <sprite>sprites\spr_Turret</sprite>
+    <sprite>sprites\spr_Bullet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -47,6 +49,10 @@
     <object>objects\obj_CrusherKill</object>
     <object>objects\obj_Fire</object>
     <object>objects\obj_FloorMoving</object>
+    <object>objects\obj_Turret</object>
+    <object>objects\obj_TurretUp</object>
+    <object>objects\obj_BulletDown</object>
+    <object>objects\obj_BulletUp</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LevelOne</room>
