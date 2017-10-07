@@ -9,6 +9,7 @@
     <sound>sound\snd_Puzzle</sound>
     <sound>sound\snd_Jump</sound>
     <sound>sound\snd_Death</sound>
+    <sound>sound\snd_CoinCollect</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Gear</sprite>
@@ -28,6 +29,10 @@
     <sprite>sprites\spr_Empty</sprite>
     <sprite>sprites\spr_Turret</sprite>
     <sprite>sprites\spr_Bullet</sprite>
+    <sprite>sprites\spr_Coin</sprite>
+    <sprite>sprites\spr_Pit</sprite>
+    <sprite>sprites\spr_Checkpoint</sprite>
+    <sprite>sprites\spr_Spawner</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -49,10 +54,16 @@
     <object>objects\obj_CrusherKill</object>
     <object>objects\obj_Fire</object>
     <object>objects\obj_FloorMoving</object>
-    <object>objects\obj_Turret</object>
+    <object>objects\obj_TurretDown</object>
+    <object>objects\obj_TurretRight</object>
     <object>objects\obj_TurretUp</object>
     <object>objects\obj_BulletDown</object>
+    <object>objects\obj_BulletRight</object>
     <object>objects\obj_BulletUp</object>
+    <object>objects\obj_Coin</object>
+    <object>objects\obj_Pit</object>
+    <object>objects\obj_Checkpoint</object>
+    <object>objects\obj_Spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LevelOne</room>
