@@ -28,6 +28,7 @@
             <string>///Initialize Variables
 grav = .5;
 hsp = 0;
+hsp_carry = 0;
 vsp = 0;
 jumpspeed = 4;
 movespeed = 4.5;
@@ -35,7 +36,7 @@ sfx = audio_emitter_create();
 audio_emitter_gain(sfx, 0.3);
 dead = false;
 score = 0;
-
+key_down = 0;
 </string>
           </argument>
         </arguments>
@@ -101,16 +102,20 @@ else
     }
 }
 
+var hsp_final = hsp + hsp_carry;
+hsp_carry = 0;
+
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_Wall))
 {
     while(!place_meeting(x+sign(hsp),y,obj_Wall))
     {
-        x += sign(hsp);
+        x += sign(hsp_final);
     }
+    hsp_final = 0;
     hsp = 0;
 }
-x += hsp;
+x += hsp_final;
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_Wall))

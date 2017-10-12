@@ -33,6 +33,7 @@
     <sprite>sprites\spr_Pit</sprite>
     <sprite>sprites\spr_Checkpoint</sprite>
     <sprite>sprites\spr_Spawner</sprite>
+    <sprite>sprites\spr_MovingFloorBounds</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -53,6 +54,7 @@
     <object>objects\obj_Crusher</object>
     <object>objects\obj_CrusherKill</object>
     <object>objects\obj_Fire</object>
+    <object>objects\obj_MovingFloorBounds</object>
     <object>objects\obj_FloorMoving</object>
     <object>objects\obj_TurretDown</object>
     <object>objects\obj_TurretRight</object>

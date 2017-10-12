@@ -164,6 +164,9 @@ global.spawny = 704;</code>
     <instance objName="obj_Spawner" x="64" y="640" name="inst_D82DC560" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Player" x="96" y="704" name="inst_F5FF4C69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Spawner" x="928" y="640" name="inst_7F797503" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_FloorMoving" x="320" y="512" name="inst_ED48E286" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MovingFloorBounds" x="416" y="512" name="inst_28351422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MovingFloorBounds" x="64" y="512" name="inst_C58C5CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
