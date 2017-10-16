@@ -31,8 +31,8 @@ global.spawny = 704;</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-23</xoffset>
-    <yoffset>-79</yoffset>
+    <xoffset>6</xoffset>
+    <yoffset>316</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
