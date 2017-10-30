@@ -12,28 +12,36 @@
     <sound>sound\snd_CoinCollect</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_Gear</sprite>
-    <sprite>sprites\spr_GearDeath</sprite>
-    <sprite>sprites\spr_Floor</sprite>
-    <sprite>sprites\spr_FloorMoving</sprite>
-    <sprite>sprites\spr_Wall</sprite>
-    <sprite>sprites\spr_GearMoving</sprite>
-    <sprite>sprites\spr_GearWall</sprite>
-    <sprite>sprites\spr_GearSingle</sprite>
-    <sprite>sprites\spr_GearSingleLeft</sprite>
-    <sprite>sprites\spr_GearWallLeft</sprite>
-    <sprite>sprites\spr_RollingHitBox</sprite>
-    <sprite>sprites\spr_Crusher</sprite>
-    <sprite>sprites\spr_CrusherKill</sprite>
-    <sprite>sprites\spr_Fire</sprite>
+    <sprites name="Player Sprites Group">
+      <sprite>sprites\spr_Gear</sprite>
+      <sprite>sprites\spr_GearDeath</sprite>
+      <sprite>sprites\spr_GearMoving</sprite>
+      <sprite>sprites\spr_RollingHitBox</sprite>
+    </sprites>
+    <sprites name="Wall and Floor Sprites Group">
+      <sprite>sprites\spr_Floor</sprite>
+      <sprite>sprites\spr_FloorMoving</sprite>
+      <sprite>sprites\spr_Wall</sprite>
+      <sprite>sprites\spr_MovingFloorBounds</sprite>
+    </sprites>
+    <sprites name="Gear Wall Sprites Group">
+      <sprite>sprites\spr_GearWall</sprite>
+      <sprite>sprites\spr_GearSingle</sprite>
+      <sprite>sprites\spr_GearSingleLeft</sprite>
+      <sprite>sprites\spr_GearWallLeft</sprite>
+    </sprites>
+    <sprites name="Hazard Sprites Group">
+      <sprite>sprites\spr_Crusher</sprite>
+      <sprite>sprites\spr_CrusherKill</sprite>
+      <sprite>sprites\spr_Fire</sprite>
+      <sprite>sprites\spr_Turret</sprite>
+      <sprite>sprites\spr_Bullet</sprite>
+      <sprite>sprites\spr_Pit</sprite>
+    </sprites>
     <sprite>sprites\spr_Empty</sprite>
-    <sprite>sprites\spr_Turret</sprite>
-    <sprite>sprites\spr_Bullet</sprite>
     <sprite>sprites\spr_Coin</sprite>
-    <sprite>sprites\spr_Pit</sprite>
     <sprite>sprites\spr_Checkpoint</sprite>
     <sprite>sprites\spr_Spawner</sprite>
-    <sprite>sprites\spr_MovingFloorBounds</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -45,25 +53,35 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_Player</object>
-    <object>objects\obj_Wall</object>
-    <object>objects\obj_Floor</object>
-    <object>objects\obj_GearWall</object>
-    <object>objects\obj_GearWallLeft</object>
-    <object>objects\obj_GearSingle</object>
-    <object>objects\obj_GearSingleLeft</object>
-    <object>objects\obj_Crusher</object>
-    <object>objects\obj_CrusherKill</object>
-    <object>objects\obj_Fire</object>
-    <object>objects\obj_MovingFloorBounds</object>
-    <object>objects\obj_FloorMoving</object>
-    <object>objects\obj_TurretDown</object>
-    <object>objects\obj_TurretRight</object>
-    <object>objects\obj_TurretUp</object>
-    <object>objects\obj_BulletDown</object>
-    <object>objects\obj_BulletRight</object>
-    <object>objects\obj_BulletUp</object>
+    <objects name="Walls and Floors Group">
+      <object>objects\obj_Wall</object>
+      <object>objects\obj_Floor</object>
+      <object>objects\obj_FloorMoving</object>
+      <object>objects\obj_MovingFloorBounds</object>
+    </objects>
+    <objects name="Gear Wall Group">
+      <object>objects\obj_GearWall</object>
+      <object>objects\obj_GearWallLeft</object>
+      <object>objects\obj_GearSingle</object>
+      <object>objects\obj_GearSingleLeft</object>
+    </objects>
+    <objects name="Turret Group">
+      <object>objects\obj_TurretDown</object>
+      <object>objects\obj_TurretLeft</object>
+      <object>objects\obj_TurretRight</object>
+      <object>objects\obj_TurretUp</object>
+      <object>objects\obj_BulletDown</object>
+      <object>objects\obj_BulletLeft</object>
+      <object>objects\obj_BulletRight</object>
+      <object>objects\obj_BulletUp</object>
+    </objects>
+    <objects name="Hazards Group">
+      <object>objects\obj_Pit</object>
+      <object>objects\obj_Fire</object>
+      <object>objects\obj_Crusher</object>
+      <object>objects\obj_CrusherKill</object>
+    </objects>
     <object>objects\obj_Coin</object>
-    <object>objects\obj_Pit</object>
     <object>objects\obj_Checkpoint</object>
     <object>objects\obj_Spawner</object>
   </objects>
