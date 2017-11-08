@@ -12,7 +12,7 @@
   <showcolour>-1</showcolour>
   <code>music = audio_emitter_create();
 audio_emitter_gain(music, 0.7);
-audio_play_sound_on(music, snd_Puzzle, true, 1);
+//audio_play_sound_on(music, snd_Puzzle, true, 1);
 global.spawnx = 96;
 global.spawny = 704;</code>
   <enableViews>-1</enableViews>
@@ -166,6 +166,8 @@ global.spawny = 704;</code>
     <instance objName="obj_FloorMoving" x="1376" y="672" name="inst_ED48E286" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_MovingFloorBounds" x="1216" y="672" name="inst_28351422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_MovingFloorBounds" x="1568" y="672" name="inst_C58C5CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_DrawGUI" x="96" y="576" name="inst_FF6291A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Key" x="704" y="672" name="inst_DC69C2FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

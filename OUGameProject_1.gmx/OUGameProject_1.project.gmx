@@ -10,6 +10,8 @@
     <sound>sound\snd_Jump</sound>
     <sound>sound\snd_Death</sound>
     <sound>sound\snd_CoinCollect</sound>
+    <sound>sound\snd_Tadaa</sound>
+    <sound>sound\snd_Respawn</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites Group">
@@ -38,10 +40,14 @@
       <sprite>sprites\spr_Bullet</sprite>
       <sprite>sprites\spr_Pit</sprite>
     </sprites>
+    <sprites name="HUD Sprites Group">
+      <sprite>sprites\spr_TopLeft</sprite>
+    </sprites>
     <sprite>sprites\spr_Empty</sprite>
     <sprite>sprites\spr_Coin</sprite>
     <sprite>sprites\spr_Checkpoint</sprite>
     <sprite>sprites\spr_Spawner</sprite>
+    <sprite>sprites\spr_Key</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -50,6 +56,7 @@
     <script>scripts\scr_NormalMovement.gml</script>
     <script>scripts\scr_GearWallMovement.gml</script>
     <script>scripts\scr_GearDeathAnimation.gml</script>
+    <script>scripts\scr_Menu.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Player</object>
@@ -84,6 +91,9 @@
     <object>objects\obj_Coin</object>
     <object>objects\obj_Checkpoint</object>
     <object>objects\obj_Spawner</object>
+    <object>objects\obj_DrawGUI</object>
+    <object>objects\obj_Key</object>
+    <object>objects\obj_Menu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LevelOne</room>
