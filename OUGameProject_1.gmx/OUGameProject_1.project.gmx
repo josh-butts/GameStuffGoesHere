@@ -12,6 +12,7 @@
     <sound>sound\snd_CoinCollect</sound>
     <sound>sound\snd_Tadaa</sound>
     <sound>sound\snd_Respawn</sound>
+    <sound>sound\snd_Vlog</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites Group">
@@ -58,6 +59,9 @@
     <script>scripts\scr_GearDeathAnimation.gml</script>
     <script>scripts\scr_Menu.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_Menu</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <objects name="Walls and Floors Group">
@@ -96,6 +100,7 @@
     <object>objects\obj_Menu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_Menu</room>
     <room>rooms\rm_LevelOne</room>
   </rooms>
   <help>

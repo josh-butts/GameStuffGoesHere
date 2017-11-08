@@ -12,7 +12,7 @@
   <showcolour>-1</showcolour>
   <code>music = audio_emitter_create();
 audio_emitter_gain(music, 0.7);
-//audio_play_sound_on(music, snd_Puzzle, true, 1);
+audio_play_sound_on(music, snd_Vlog, true, 1);
 global.spawnx = 96;
 global.spawny = 704;</code>
   <enableViews>-1</enableViews>

@@ -2,7 +2,7 @@ switch (mpos)
 {
     case 0:
     {
-        room_next();
+        room_goto_next();
         break;
     }
     case 1:
@@ -20,4 +20,3 @@ switch (mpos)
     }
     default: break;
 }
-//20 minutes in
