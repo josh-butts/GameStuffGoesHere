@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_Wall</parentName>
+  <parentName>self</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>fireRate = 60;
 fireDirection = obj_BulletRight;
-instance_create(x,y,fireDirection);
+instance_create(x+4,y,fireDirection);
 alarm[0] = fireRate;
 </string>
           </argument>

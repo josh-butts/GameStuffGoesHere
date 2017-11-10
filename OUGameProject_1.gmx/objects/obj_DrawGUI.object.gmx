@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_sprite(spr_TopLeft,0,0,0);
+
 </string>
           </argument>
         </arguments>
