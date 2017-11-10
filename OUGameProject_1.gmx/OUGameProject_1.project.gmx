@@ -29,7 +29,9 @@
     </sprites>
     <sprites name="Gear Wall Sprites Group">
       <sprite>sprites\spr_GearWall</sprite>
+      <sprite>sprites\spr_GearWallUp</sprite>
       <sprite>sprites\spr_GearSingle</sprite>
+      <sprite>sprites\spr_GearSingleUp</sprite>
       <sprite>sprites\spr_GearSingleLeft</sprite>
       <sprite>sprites\spr_GearWallLeft</sprite>
     </sprites>
@@ -72,8 +74,10 @@
     </objects>
     <objects name="Gear Wall Group">
       <object>objects\obj_GearWall</object>
+      <object>objects\obj_GearWallUp</object>
       <object>objects\obj_GearWallLeft</object>
       <object>objects\obj_GearSingle</object>
+      <object>objects\obj_GearSingleUp</object>
       <object>objects\obj_GearSingleLeft</object>
     </objects>
     <objects name="Turret Group">

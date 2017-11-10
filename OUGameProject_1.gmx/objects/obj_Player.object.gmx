@@ -71,7 +71,7 @@ vert_move = key_up + key_down;
 //react to inputs
 if (!dead)
 {
-    if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft)))
+    if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft)) || (place_meeting(x,y,obj_GearWallUp)))
     {
         scr_GearWallMovement();
     }
