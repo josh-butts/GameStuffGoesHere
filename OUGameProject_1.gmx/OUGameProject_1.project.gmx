@@ -51,6 +51,7 @@
     <sprite>sprites\spr_Checkpoint</sprite>
     <sprite>sprites\spr_Spawner</sprite>
     <sprite>sprites\spr_Key</sprite>
+    <sprite>sprites\spr_Robot</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -102,6 +103,7 @@
     <object>objects\obj_DrawGUI</object>
     <object>objects\obj_Key</object>
     <object>objects\obj_Menu</object>
+    <object>objects\obj_Robot</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>
