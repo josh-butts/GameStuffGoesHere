@@ -17,6 +17,7 @@
   <sprites name="sprites">
     <sprites name="Player Sprites Group">
       <sprite>sprites\spr_Gear</sprite>
+      <sprite>sprites\spr_GearAttack</sprite>
       <sprite>sprites\spr_GearDeath</sprite>
       <sprite>sprites\spr_GearMoving</sprite>
       <sprite>sprites\spr_RollingHitBox</sprite>

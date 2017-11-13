@@ -36,7 +36,7 @@ sfx = audio_emitter_create();
 audio_emitter_gain(sfx, 0.3);
 dead = false;
 score = 0;
-key_down = 0;
+global.attack = false;
 </string>
           </argument>
         </arguments>
@@ -62,11 +62,13 @@ key_down = 0;
             <string>//Get the player's input
 key_right = keyboard_check(ord('D'));
 key_left = -keyboard_check(ord('A'));
-key_jump = keyboard_check_pressed(ord('W'));
+key_jump = keyboard_check_pressed(ord(' '));
 key_up = -keyboard_check(ord('W'));
 key_down = keyboard_check(ord('S'));
+key_attack = keyboard_check_pressed(ord('L'));
 move = key_left + key_right;
 vert_move = key_up + key_down;
+
 
 //react to inputs
 if (!dead)
@@ -85,7 +87,7 @@ if (!dead)
         {
             audio_play_sound_on(sfx, snd_PlayerRoll, 0, 0);
         }
-        else if(hspeed = 0)
+        else if(hsp = 0)
         {
             audio_stop_sound(snd_PlayerRoll);
         }
