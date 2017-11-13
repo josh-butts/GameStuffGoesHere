@@ -85,7 +85,7 @@ if (!dead)
         {
             audio_play_sound_on(sfx, snd_PlayerRoll, 0, 0);
         }
-        else if(hsp = 0)
+        else if(hspeed = 0)
         {
             audio_stop_sound(snd_PlayerRoll);
         }
@@ -101,6 +101,7 @@ else
     {
         audio_play_sound_on(sfx, snd_Death, 0, 0);
     }
+    
 }
 
 var hsp_final = hsp + hsp_carry;
