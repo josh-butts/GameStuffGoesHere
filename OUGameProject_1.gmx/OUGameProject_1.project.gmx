@@ -105,6 +105,7 @@
     <object>objects\obj_Key</object>
     <object>objects\obj_Menu</object>
     <object>objects\obj_Robot</object>
+    <object>objects\obj_Attack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>

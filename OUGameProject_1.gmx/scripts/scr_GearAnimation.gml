@@ -9,7 +9,7 @@ if (place_meeting(x,y,obj_GearWall))
         sprite_index = spr_GearMoving;
         image_speed = abs(vsp) * 0.1;
     }
-    else
+    else 
     {
         sprite_index = spr_Gear;
     }
@@ -22,7 +22,7 @@ else if (place_meeting(x,y,obj_GearWallLeft))
         sprite_index = spr_GearMoving;
         image_speed = abs(vsp) * 0.1;
     }
-    else
+    else 
     {
         sprite_index = spr_Gear;
     }
@@ -35,12 +35,12 @@ else if (place_meeting(x,y,obj_GearWallUp))
         sprite_index = spr_GearMoving;
         image_speed = abs(hsp) * 0.1;
     }
-    else
+    else 
     {
         sprite_index = spr_Gear;
     }
 }
-else //off gear wall
+else if (!place_meeting(x,y,obj_GearWallUp) && !place_meeting(x,y,obj_GearWallLeft)) //off gear wall
 {
     if (move != 0) 
     {
@@ -53,4 +53,7 @@ else //off gear wall
         sprite_index = spr_Gear;
     }
 }
-
+else 
+{
+    sprite_index = spr_Gear;
+}
