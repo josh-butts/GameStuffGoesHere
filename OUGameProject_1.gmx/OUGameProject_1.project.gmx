@@ -42,7 +42,9 @@
       <sprite>sprites\spr_CrusherKill</sprite>
       <sprite>sprites\spr_Fire</sprite>
       <sprite>sprites\spr_Turret</sprite>
+      <sprite>sprites\spr_OmniTurret</sprite>
       <sprite>sprites\spr_Bullet</sprite>
+      <sprite>sprites\spr_Lazer</sprite>
       <sprite>sprites\spr_Pit</sprite>
     </sprites>
     <sprites name="HUD Sprites Group">
@@ -92,6 +94,8 @@
       <object>objects\obj_BulletLeft</object>
       <object>objects\obj_BulletRight</object>
       <object>objects\obj_BulletUp</object>
+      <object>objects\obj_Lazer</object>
+      <object>objects\obj_OmniTurret</object>
     </objects>
     <objects name="Hazards Group">
       <object>objects\obj_Pit</object>
@@ -106,7 +110,6 @@
     <object>objects\obj_Key</object>
     <object>objects\obj_Menu</object>
     <object>objects\obj_Robot</object>
-    <object>objects\obj_Attack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>

@@ -114,7 +114,6 @@ global.spawny = 704;</code>
     <instance objName="obj_CrusherKill" x="256" y="32" name="inst_828FFE1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Crusher" x="384" y="32" name="inst_6AED9F98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_CrusherKill" x="384" y="32" name="inst_518C3A25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="266" y="630" name="inst_A2C81CF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TurretDown" x="640" y="64" name="inst_0B195EF5" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TurretDown" x="960" y="64" name="inst_A55E2E43" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TurretUp" x="800" y="704" name="inst_A4956432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -161,7 +160,7 @@ global.spawny = 704;</code>
     <instance objName="obj_TurretRight" x="896" y="576" name="inst_C0794D12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
     <instance objName="obj_Checkpoint" x="64" y="672" name="inst_E6666E28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Spawner" x="64" y="640" name="inst_D82DC560" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="416" y="704" name="inst_F5FF4C69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="96" y="704" name="inst_F5FF4C69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Spawner" x="960" y="640" name="inst_7F797503" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_FloorMoving" x="1376" y="672" name="inst_ED48E286" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_MovingFloorBounds" x="1216" y="672" name="inst_28351422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -219,14 +218,14 @@ global.spawny = 704;</code>
     <instance objName="obj_Coin" x="1360" y="432" name="inst_C258B0E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="1328" y="432" name="inst_19A95CF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Robot" x="1408" y="288" name="inst_6A4CA764" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="294" y="630" name="inst_4DFCA6A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="239" y="630" name="inst_85950D46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="973" y="339" name="inst_3EAE3592" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="1004" y="340" name="inst_152D0B87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="1033" y="342" name="inst_57FE68F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="736" y="640" name="inst_C6BC54CD" locked="0" code="" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="864" y="544" name="inst_5977D840" locked="0" code="" scaleX="0.300000011920929" scaleY="0.1875" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1312" y="288" name="inst_19543359" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_OmniTurret" x="262" y="272" name="inst_24BC078D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="96" y="544" name="inst_F3EE5944" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

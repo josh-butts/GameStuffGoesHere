@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = -4.5;
+            <string>vspeed = -10;
 </string>
           </argument>
         </arguments>

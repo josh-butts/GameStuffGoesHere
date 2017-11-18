@@ -70,12 +70,6 @@ key_attack = keyboard_check_pressed(ord('L'));
 move = key_left + key_right;
 vert_move = key_up + key_down;
 
-//check if attacking
-if (key_attack)
-{
-    instance_create(x, y, obj_Attack);
-    instance_destroy();
-}
 //react to inputs
 if (!dead)
 {

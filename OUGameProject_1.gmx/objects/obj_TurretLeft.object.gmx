@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>fireRate = 60;
+            <string>fireRate = 120;
 fireDirection = obj_BulletLeft;
 instance_create(x,y,fireDirection);
 alarm[0] = fireRate;
