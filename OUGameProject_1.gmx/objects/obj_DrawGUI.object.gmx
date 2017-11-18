@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="64">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,37 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(spr_TopLeft,0,0,0);
-
+            <string>draw_set_colour(c_lime);
+//draw_text(view_xview[0]+10, view_yview[0]+15, "Hearts: " + string(obj_Ant.hp))
+draw_text(view_xview[0]+10, view_yview[0]+40, "Score: " + string(score))
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>703</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_score</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>32</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>16</string>
-          </argument>
-          <argument>
-            <kind>1</kind>
-            <string>Score: </string>
           </argument>
         </arguments>
       </action>

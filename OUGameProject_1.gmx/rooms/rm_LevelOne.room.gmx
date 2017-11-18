@@ -11,8 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>music = audio_emitter_create();
-audio_emitter_gain(music, 0.7);
-audio_play_sound_on(music, snd_Vlog, true, 1);
+audio_emitter_gain(music, 0.5);
+//audio_play_sound_on(music, snd_Fast, true, 1);
 global.spawnx = 96;
 global.spawny = 704;</code>
   <enableViews>-1</enableViews>
@@ -218,7 +218,7 @@ global.spawny = 704;</code>
     <instance objName="obj_Coin" x="1552" y="432" name="inst_2C992361" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="1360" y="432" name="inst_C258B0E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="1328" y="432" name="inst_19A95CF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Robot" x="960" y="704" name="inst_6A4CA764" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Robot" x="1408" y="288" name="inst_6A4CA764" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="294" y="630" name="inst_4DFCA6A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="239" y="630" name="inst_85950D46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="973" y="339" name="inst_3EAE3592" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -226,6 +226,7 @@ global.spawny = 704;</code>
     <instance objName="obj_Fire" x="1033" y="342" name="inst_57FE68F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="736" y="640" name="inst_C6BC54CD" locked="0" code="" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="864" y="544" name="inst_5977D840" locked="0" code="" scaleX="0.300000011920929" scaleY="0.1875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="1312" y="288" name="inst_19543359" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
