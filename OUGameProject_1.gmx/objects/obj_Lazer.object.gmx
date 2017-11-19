@@ -75,7 +75,8 @@ direction = point_direction(x, y, obj_Player.x, obj_Player.y);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
+            <string>audio_play_sound_on(obj_Player.sfx, snd_Boom, 0, 0);
+instance_destroy();
 </string>
           </argument>
         </arguments>
@@ -99,6 +100,7 @@ direction = point_direction(x, y, obj_Player.x, obj_Player.y);
           <argument>
             <kind>1</kind>
             <string>obj_Player.dead = true;
+audio_play_sound_on(obj_Player.sfx, snd_Boom, 0, 0);
 instance_destroy();
 </string>
           </argument>

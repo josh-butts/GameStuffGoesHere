@@ -14,6 +14,7 @@
     <sound>sound\snd_Respawn</sound>
     <sound>sound\snd_Vlog</sound>
     <sound>sound\snd_Fast</sound>
+    <sound>sound\snd_Boom</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites Group">
