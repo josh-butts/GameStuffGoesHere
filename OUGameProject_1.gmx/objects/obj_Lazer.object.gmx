@@ -29,6 +29,8 @@
 //direction = point_direction(x, y, obj_LazerCrosshair.x, obj_LazerCrosshair.y);
 speed = 2;
 image_speed = 0.7;
+rocket_boom = audio_emitter_create();
+
 </string>
           </argument>
         </arguments>
@@ -53,6 +55,7 @@ image_speed = 0.7;
             <kind>1</kind>
             <string>image_angle = point_direction(x, y, obj_Player.x, obj_Player.y);
 direction = point_direction(x, y, obj_Player.x, obj_Player.y);
+
 </string>
           </argument>
         </arguments>
@@ -75,7 +78,8 @@ direction = point_direction(x, y, obj_Player.x, obj_Player.y);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound_on(obj_Player.sfx, snd_Boom, 0, 0);
+            <string>
+audio_play_sound_on(rocket_boom, snd_Boom, 0, 0);
 instance_destroy();
 </string>
           </argument>
@@ -99,8 +103,9 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_Player.dead = true;
-audio_play_sound_on(obj_Player.sfx, snd_Boom, 0, 0);
+            <string>
+audio_play_sound_on(rocket_boom, snd_Boom, 0, 0);
+obj_Player.dead = true;
 instance_destroy();
 </string>
           </argument>

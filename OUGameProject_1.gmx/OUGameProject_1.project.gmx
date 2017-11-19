@@ -66,6 +66,7 @@
     <script>scripts\scr_GearWallMovement.gml</script>
     <script>scripts\scr_GearDeathAnimation.gml</script>
     <script>scripts\scr_Menu.gml</script>
+    <script>scripts\scr_RollingSound.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_Menu</font>

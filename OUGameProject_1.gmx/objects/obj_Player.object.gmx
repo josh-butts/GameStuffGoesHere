@@ -80,8 +80,8 @@ if (!dead)
     else
     {
         scr_NormalMovement();
-        
         //sound
+        /*
         if (hsp != 0 &amp;&amp; !audio_is_playing(snd_PlayerRoll) 
         &amp;&amp; place_meeting(x,y+1,obj_Wall))
         {
@@ -91,6 +91,7 @@ if (!dead)
         {
             audio_stop_sound(snd_PlayerRoll);
         }
+        */
     }
 }
 //death
