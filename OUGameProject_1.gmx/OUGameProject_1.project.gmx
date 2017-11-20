@@ -57,6 +57,12 @@
       <sprite>sprites\spr_Start</sprite>
       <sprite>sprites\spr_Title</sprite>
       <sprite>sprites\spr_Black</sprite>
+      <sprite>sprites\spr_Options</sprite>
+      <sprite>sprites\spr_Continue</sprite>
+      <sprite>sprites\spr_Quit</sprite>
+      <sprite>sprites\spr_Back</sprite>
+      <sprite>sprites\spr_Fullscreen</sprite>
+      <sprite>sprites\spr_Windowed</sprite>
     </sprites>
     <sprite>sprites\spr_Empty</sprite>
     <sprite>sprites\spr_Coin</sprite>
@@ -121,6 +127,12 @@
       <object>objects\obj_Start</object>
       <object>objects\obj_Title</object>
       <object>objects\obj_Black</object>
+      <object>objects\obj_Continue</object>
+      <object>objects\obj_Options</object>
+      <object>objects\obj_Quit</object>
+      <object>objects\obj_Fullscreen</object>
+      <object>objects\obj_Windowed</object>
+      <object>objects\obj_Back</object>
     </objects>
     <object>objects\obj_Coin</object>
     <object>objects\obj_Checkpoint</object>
@@ -132,6 +144,8 @@
   <rooms name="rooms">
     <room>rooms\rm_Start</room>
     <room>rooms\rm_Menu</room>
+    <room>rooms\rm_Options</room>
+    <room>rooms\rm_LevelSelect</room>
     <room>rooms\rm_LevelOne</room>
     <room>rooms\rm_AutoScroll</room>
   </rooms>
