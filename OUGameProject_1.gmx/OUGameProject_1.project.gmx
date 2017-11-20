@@ -15,6 +15,7 @@
     <sound>sound\snd_Vlog</sound>
     <sound>sound\snd_Fast</sound>
     <sound>sound\snd_Boom</sound>
+    <sound>sound\snd_Start</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites Group">
@@ -51,14 +52,23 @@
     <sprites name="HUD Sprites Group">
       <sprite>sprites\spr_TopLeft</sprite>
     </sprites>
+    <sprites name="Menu Sprites Group">
+      <sprite>sprites\spr_Levels</sprite>
+      <sprite>sprites\spr_Start</sprite>
+      <sprite>sprites\spr_Title</sprite>
+      <sprite>sprites\spr_Black</sprite>
+    </sprites>
     <sprite>sprites\spr_Empty</sprite>
     <sprite>sprites\spr_Coin</sprite>
     <sprite>sprites\spr_Checkpoint</sprite>
     <sprite>sprites\spr_Spawner</sprite>
     <sprite>sprites\spr_Key</sprite>
     <sprite>sprites\spr_Robot</sprite>
+    <sprite>sprites\back</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_GearAnimation.gml</script>
@@ -105,17 +115,25 @@
       <object>objects\obj_Crusher</object>
       <object>objects\obj_CrusherKill</object>
     </objects>
+    <objects name="Menu Group">
+      <object>objects\obj_Menu</object>
+      <object>objects\obj_Levels</object>
+      <object>objects\obj_Start</object>
+      <object>objects\obj_Title</object>
+      <object>objects\obj_Black</object>
+    </objects>
     <object>objects\obj_Coin</object>
     <object>objects\obj_Checkpoint</object>
     <object>objects\obj_Spawner</object>
     <object>objects\obj_DrawGUI</object>
     <object>objects\obj_Key</object>
-    <object>objects\obj_Menu</object>
     <object>objects\obj_Robot</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_Start</room>
     <room>rooms\rm_Menu</room>
     <room>rooms\rm_LevelOne</room>
+    <room>rooms\rm_AutoScroll</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

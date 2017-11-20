@@ -10,9 +10,10 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>music = audio_emitter_create();
+  <code>audio_stop_all();
+music = audio_emitter_create();
 audio_emitter_gain(music, 0.5);
-//audio_play_sound_on(music, snd_Fast, true, 1);
+audio_play_sound_on(music, snd_Fast, true, 1);
 global.spawnx = 96;
 global.spawny = 704;</code>
   <enableViews>-1</enableViews>
