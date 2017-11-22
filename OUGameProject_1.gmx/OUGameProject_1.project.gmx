@@ -71,6 +71,10 @@
     <sprite>sprites\spr_Key</sprite>
     <sprite>sprites\spr_Robot</sprite>
     <sprite>sprites\back</sprite>
+    <sprite>sprites\spr_Egg</sprite>
+    <sprite>sprites\spr_Eggsplode</sprite>
+    <sprite>sprites\spr_Splode</sprite>
+    <sprite>sprites\spr_Dust</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -140,6 +144,10 @@
     <object>objects\obj_DrawGUI</object>
     <object>objects\obj_Key</object>
     <object>objects\obj_Robot</object>
+    <object>objects\obj_Egg</object>
+    <object>objects\obj_Splode</object>
+    <object>objects\obj_Eggsplode</object>
+    <object>objects\obj_Music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Start</room>
