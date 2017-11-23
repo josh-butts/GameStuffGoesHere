@@ -138,16 +138,21 @@
       <object>objects\obj_Windowed</object>
       <object>objects\obj_Back</object>
     </objects>
+    <objects name="Controller Group">
+      <object>objects\obj_DrawGUI</object>
+      <object>objects\obj_Music</object>
+      <object>objects\obj_Pause</object>
+    </objects>
+    <objects name="Enemies Group">
+      <object>objects\obj_Robot</object>
+      <object>objects\obj_Egg</object>
+      <object>objects\obj_Eggsplode</object>
+      <object>objects\obj_Splode</object>
+    </objects>
     <object>objects\obj_Coin</object>
     <object>objects\obj_Checkpoint</object>
     <object>objects\obj_Spawner</object>
-    <object>objects\obj_DrawGUI</object>
     <object>objects\obj_Key</object>
-    <object>objects\obj_Robot</object>
-    <object>objects\obj_Egg</object>
-    <object>objects\obj_Splode</object>
-    <object>objects\obj_Eggsplode</object>
-    <object>objects\obj_Music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Start</room>

@@ -54,7 +54,8 @@ hsp = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>mask_index = spr_FloorMoving;
+            <string>
+mask_index = spr_FloorMoving;
 
 hsp = dir * movespeed;
 

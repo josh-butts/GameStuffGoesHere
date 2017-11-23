@@ -51,7 +51,9 @@ alarm[0] = fireRate;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,fireDirection);
+            <string>
+    instance_create(x,y,fireDirection);
+
 alarm[0] = fireRate;
 </string>
           </argument>
@@ -75,7 +77,9 @@ alarm[0] = fireRate;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,fireDirection);
+            <string>
+    instance_create(x,y,fireDirection);
+
 alarm[1] = fireRate;
 </string>
           </argument>

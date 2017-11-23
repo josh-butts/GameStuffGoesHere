@@ -48,7 +48,7 @@ else if (!place_meeting(x,y,obj_GearWallUp) && !place_meeting(x,y,obj_GearWallLe
         sprite_index = spr_GearMoving;
         image_speed = abs(hsp) * 0.1;
         //sound
-        scr_RollingSound();
+        //scr_RollingSound();
     }
     else 
     {

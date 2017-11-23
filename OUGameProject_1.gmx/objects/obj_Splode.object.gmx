@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.6;
+audio_play_sound_on(obj_Player.sfx, snd_Boom, 0, 0);
 </string>
           </argument>
         </arguments>

@@ -106,7 +106,8 @@ instance_create(x,y,obj_Lazer);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle = point_direction(x, y, obj_Player.x, obj_Player.y);
+            <string>
+image_angle = point_direction(x, y, obj_Player.x, obj_Player.y);
 image_angle -= 90;
 </string>
           </argument>
