@@ -94,7 +94,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(2);
+            <string>room_goto(rm_Options);
 </string>
           </argument>
         </arguments>

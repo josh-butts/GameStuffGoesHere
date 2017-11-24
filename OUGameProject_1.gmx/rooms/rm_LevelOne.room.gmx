@@ -10,10 +10,10 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>audio_stop_all();
-music = audio_emitter_create();
-audio_emitter_gain(music, 0.5);
-audio_play_sound_on(music, snd_Fast, true, 1);
+  <code>//music comtroller
+obj_Music.track = snd_Fast;
+obj_Music.gain = 0.5;
+//spawn
 global.spawnx = 96;
 global.spawny = 704;</code>
   <enableViews>-1</enableViews>
@@ -31,9 +31,9 @@ global.spawny = 704;</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>721</xoffset>
-    <yoffset>2365</yoffset>
+    <page>1</page>
+    <xoffset>-58</xoffset>
+    <yoffset>252</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

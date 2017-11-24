@@ -94,7 +94,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(3);
+            <string>room_goto(rm_LevelSelect);
 </string>
           </argument>
         </arguments>
