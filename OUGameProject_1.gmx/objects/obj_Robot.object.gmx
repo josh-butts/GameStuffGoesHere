@@ -84,7 +84,7 @@ y += vsp;
 //collision with player
 if (place_meeting(x,y,obj_Player))
 {
-    if (global.attack)
+    if (obj_Player.dashOnCooldown)
     {
         instance_destroy();
     }

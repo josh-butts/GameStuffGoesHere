@@ -34,10 +34,37 @@ jumpspeed = 4;
 movespeed = 4.5;
 sfx = audio_emitter_create();
 audio_emitter_gain(sfx, 0.3);
+allowMovement = true;
 dead = false;
+dashDistance = 60;
+dashOnCooldown = false;
+    alarm[0] = 60;
 score = 0;
-global.attack = false;
+global.attack = false;          // not needed?
 view_object[0] = obj_Player;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>dashOnCooldown = false;
 </string>
           </argument>
         </arguments>
@@ -60,8 +87,7 @@ view_object[0] = obj_Player;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-//Get the player's input
+            <string>//Get the player's input
 key_right = keyboard_check(ord('D'));
 key_left = -keyboard_check(ord('A'));
 key_jump = keyboard_check_pressed(vk_space);
@@ -72,7 +98,7 @@ move = key_left + key_right;
 vert_move = key_up + key_down;
 
 //react to inputs
-if (!dead)
+if (allowMovement &amp;&amp; !dead)
 {
     if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft)) || (place_meeting(x,y,obj_GearWallUp)))
     {
@@ -95,8 +121,7 @@ if (!dead)
         */
     }
 }
-//death
-else
+else if (dead)      // death
 {
     hsp = 0;
     vsp = 0;
@@ -107,6 +132,36 @@ else
         audio_play_sound_on(sfx, snd_Death, 0, 0);
     }
     
+}
+else if (!allowMovement) {              // restrict movement
+    hsp = 0;
+    vsp = 0;
+    move = 0;
+}
+
+
+// dash
+if (key_attack)
+{
+    if (!dashOnCooldown) 
+    {
+        allowMovement = false;
+          
+        if ((move != 0) &amp;&amp; (!place_meeting(x+(dashDistance*move),y,obj_Wall))) 
+        {
+            x += dashDistance * move;
+        }
+        else if ((move != 0) &amp;&amp; (place_meeting(x+(dashDistance*move),y,obj_Wall))) 
+        {
+            wall = instance_nearest(x+(dashDistance*move), y, obj_Wall)
+            x = wall.x - 64 * move;
+        }
+
+        dashOnCooldown = true;
+        alarm[0] = 60;
+
+        allowMovement = true;
+    }
 }
 
 var hsp_final = hsp + hsp_carry;
@@ -145,7 +200,6 @@ if (!dead)
     scr_GearDeathAnimation();
 }
 */
-
 
 </string>
           </argument>
