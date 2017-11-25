@@ -142,6 +142,7 @@
       <object>objects\obj_DrawGUI</object>
       <object>objects\obj_Pause</object>
       <object>objects\obj_Music</object>
+      <object>objects\obj_Spawn</object>
     </objects>
     <objects name="Enemies Group">
       <object>objects\obj_Robot</object>

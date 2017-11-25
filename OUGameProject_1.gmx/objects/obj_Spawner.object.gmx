@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.spawnx = x+32;
-global.spawny = y+32;
+            <string>obj_Spawn.spawnx = x+32;
+obj_Spawn.spawny = y+32;
 if (object_exists(obj_Checkpoint))
 {
     instance_destroy(obj_Checkpoint);
