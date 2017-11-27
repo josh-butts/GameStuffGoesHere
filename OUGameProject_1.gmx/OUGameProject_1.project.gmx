@@ -16,6 +16,7 @@
     <sound>sound\snd_Fast</sound>
     <sound>sound\snd_Boom</sound>
     <sound>sound\snd_Start</sound>
+    <sound>sound\snd_Opener</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites Group">

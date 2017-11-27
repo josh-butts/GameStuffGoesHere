@@ -10,8 +10,8 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>obj_Music.track = snd_Start;
-obj_Music.gain = 0.5;</code>
+  <code>obj_Music.track = snd_Opener;
+obj_Music.gain = 0.6;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
