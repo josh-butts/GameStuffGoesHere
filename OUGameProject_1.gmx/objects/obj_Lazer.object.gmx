@@ -30,6 +30,7 @@
 speed = 2;
 image_speed = 0.7;
 rocket_boom = audio_emitter_create();
+audio_play_sound_on(rocket_boom, snd_RocketShoot, 0, 0);
 
 </string>
           </argument>
