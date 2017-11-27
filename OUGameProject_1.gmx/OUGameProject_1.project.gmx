@@ -65,20 +65,19 @@
       <sprite>sprites\spr_Fullscreen</sprite>
       <sprite>sprites\spr_Windowed</sprite>
     </sprites>
-    <sprite>sprites\spr_Empty</sprite>
+    <sprites name="Enemy Sprites Group">
+      <sprite>sprites\spr_Robot</sprite>
+      <sprite>sprites\spr_Egg</sprite>
+      <sprite>sprites\spr_Eggsplode</sprite>
+      <sprite>sprites\spr_Splode</sprite>
+    </sprites>
     <sprite>sprites\spr_Coin</sprite>
     <sprite>sprites\spr_Checkpoint</sprite>
     <sprite>sprites\spr_Spawner</sprite>
     <sprite>sprites\spr_Key</sprite>
-    <sprite>sprites\spr_Robot</sprite>
-    <sprite>sprites\back</sprite>
-    <sprite>sprites\spr_Egg</sprite>
-    <sprite>sprites\spr_Eggsplode</sprite>
-    <sprite>sprites\spr_Splode</sprite>
-    <sprite>sprites\spr_Dust</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\bg_Start</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
