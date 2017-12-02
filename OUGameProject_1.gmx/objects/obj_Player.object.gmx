@@ -36,12 +36,16 @@ sfx = audio_emitter_create();
 audio_emitter_gain(sfx, 0.3);
 allowMovement = true;
 dead = false;
-dashDistance = 60;
-dashOnCooldown = false;
-    alarm[0] = 60;
+//dashDistance = 60;
+//dashOnCooldown = false;
+attack_on_cooldown = false;
+attack_direction = 1;
+attack_cooldown = 20;
+alarm[0] = 60;
 score = 0;
 global.attack = false;          // not needed?
 view_object[0] = obj_Player;
+
 </string>
           </argument>
         </arguments>
@@ -64,7 +68,7 @@ view_object[0] = obj_Player;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>dashOnCooldown = false;
+            <string>attack_on_cooldown = false;
 </string>
           </argument>
         </arguments>
@@ -100,7 +104,8 @@ vert_move = key_up + key_down;
 //react to inputs
 if (allowMovement &amp;&amp; !dead)
 {
-    if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft)) || (place_meeting(x,y,obj_GearWallUp)))
+    if (place_meeting(x,y,obj_GearWall) || (place_meeting(x,y,obj_GearWallLeft))
+     || (place_meeting(x,y,obj_GearWallUp)))
     {
         scr_GearWallMovement();
     }
@@ -109,7 +114,9 @@ if (allowMovement &amp;&amp; !dead)
         scr_NormalMovement();
     }
 }
-else if (dead)      // death
+
+// death
+else if (dead)
 {
     hsp = 0;
     vsp = 0;
@@ -119,39 +126,32 @@ else if (dead)      // death
     {
         audio_play_sound_on(sfx, snd_Death, 0, 0);
     }
-    
+    //respawn is now handled in obj_Spawn
 }
-else if (!allowMovement) {              // restrict movement
+
+// restrict movement
+else if (!allowMovement) 
+{
     hsp = 0;
     vsp = 0;
     move = 0;
 }
 
-
-// dash
-if (key_attack)
+//attack direction
+if (move != 0)
 {
-    if (!dashOnCooldown) 
-    {
-        allowMovement = false;
-          
-        if ((move != 0) &amp;&amp; (!place_meeting(x+(dashDistance*move),y,obj_Wall))) 
-        {
-            x += dashDistance * move;
-        }
-        else if ((move != 0) &amp;&amp; (place_meeting(x+(dashDistance*move),y,obj_Wall))) 
-        {
-            wall = instance_nearest(x+(dashDistance*move), y, obj_Wall)
-            x = wall.x - 64 * move;
-        }
-
-        dashOnCooldown = true;
-        alarm[0] = 60;
-
-        allowMovement = true;
-    }
+    attack_direction = move;
 }
 
+//attack
+if (key_attack &amp;&amp; !attack_on_cooldown)
+{
+    instance_create(x+16,y+16,obj_PlayerAttack);
+    attack_on_cooldown = true;
+    alarm[0] = attack_cooldown;
+}
+
+//floor moving variable
 var hsp_final = hsp + hsp_carry;
 hsp_carry = 0;
 
@@ -165,6 +165,8 @@ if (place_meeting(x+hsp,y,obj_Wall))
     hsp_final = 0;
     hsp = 0;
 }
+
+//horizontal movement
 x += hsp_final;
 
 //Vertical Collision
@@ -176,6 +178,8 @@ if (place_meeting(x,y+vsp,obj_Wall))
     }
     vsp = 0;
 }
+
+//vertical movement
 y += vsp;
 
 //animation
@@ -183,12 +187,6 @@ if (!dead)
 {
     scr_GearAnimation();
 }
-/*else
-{
-    scr_GearDeathAnimation();
-}
-*/
-
 </string>
           </argument>
         </arguments>

@@ -82,15 +82,11 @@ if (place_meeting(x,y+vsp,obj_Wall))
 }
 y += vsp;
 
-//collision with player
-if (place_meeting(x,y,obj_Player))
+//collision with PlayerAttack
+if (place_meeting(x,y,obj_PlayerAttack))
 {
-    if (global.attack)
-    {
-        instance_destroy();
-    }
+    instance_destroy();
 }
-
 </string>
           </argument>
         </arguments>

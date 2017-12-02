@@ -85,8 +85,6 @@
     <script>scripts\scr_GearAnimation.gml</script>
     <script>scripts\scr_NormalMovement.gml</script>
     <script>scripts\scr_GearWallMovement.gml</script>
-    <script>scripts\scr_GearDeathAnimation.gml</script>
-    <script>scripts\scr_Menu.gml</script>
     <script>scripts\scr_RollingSound.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -94,6 +92,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_Player</object>
+    <object>objects\obj_PlayerAttack</object>
     <objects name="Walls and Floors Group">
       <object>objects\obj_Wall</object>
       <object>objects\obj_Floor</object>
@@ -127,11 +126,8 @@
       <object>objects\obj_CrusherKill</object>
     </objects>
     <objects name="Menu Group">
-      <object>objects\obj_Menu</object>
       <object>objects\obj_Levels</object>
       <object>objects\obj_Start</object>
-      <object>objects\obj_Title</object>
-      <object>objects\obj_Black</object>
       <object>objects\obj_Continue</object>
       <object>objects\obj_Options</object>
       <object>objects\obj_Quit</object>

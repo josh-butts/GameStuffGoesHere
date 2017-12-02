@@ -84,14 +84,13 @@ y += vsp;
 //collision with player
 if (place_meeting(x,y,obj_Player))
 {
-    if (obj_Player.dashOnCooldown)
-    {
-        instance_destroy();
-    }
-    else
-    {
-        obj_Player.dead = true;
-    }
+    obj_Player.dead = true;
+}
+
+//collision with PlayerAttack
+if (place_meeting(x,y,obj_PlayerAttack))
+{
+    instance_destroy();
 }
 </string>
           </argument>
