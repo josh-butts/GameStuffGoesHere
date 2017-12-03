@@ -79,6 +79,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Start</background>
+    <background>background\bg_Standin</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
