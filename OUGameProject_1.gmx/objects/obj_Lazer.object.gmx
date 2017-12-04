@@ -25,13 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//image_angle = point_direction(x, y, obj_LazerCrosshair.x, obj_LazerCrosshair.y);
-//direction = point_direction(x, y, obj_LazerCrosshair.x, obj_LazerCrosshair.y);
-speed = 2;
+            <string>sound_range = 550;
+speed = 2.5;
 image_speed = 0.7;
 rocket_boom = audio_emitter_create();
-audio_play_sound_on(rocket_boom, snd_RocketShoot, 0, 0);
-
+if (distance_to_object(obj_Player) &lt; 720)
+{
+    audio_play_sound_on(rocket_boom, snd_RocketShoot, 0, 0);
+}
+juked = false;
+lockon_range = 50;
 </string>
           </argument>
         </arguments>
@@ -54,12 +57,19 @@ audio_play_sound_on(rocket_boom, snd_RocketShoot, 0, 0);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if (instance_exists(obj_Player))
+            <string>if (distance_to_object(obj_Player) &gt; lockon_range &amp;&amp; !juked)
 {
-    image_angle = point_direction(x, y, obj_Player.x, obj_Player.y);
-    direction = point_direction(x, y, obj_Player.x, obj_Player.y);
+    if (instance_exists(obj_Player))
+    {
+        image_angle = point_direction(x, y, obj_Player.x, obj_Player.y);
+        direction = point_direction(x, y, obj_Player.x, obj_Player.y);
+    }
 }
+else
+{
+    juked = true;
+}
+speed += 0.02;
 </string>
           </argument>
         </arguments>
@@ -82,8 +92,10 @@ if (instance_exists(obj_Player))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-audio_play_sound_on(rocket_boom, snd_Boom, 0, 0);
+            <string>if (distance_to_object(obj_Player) &lt; sound_range)
+{
+    audio_play_sound_on(rocket_boom, snd_Boom, 0, 0);
+}
 instance_destroy();
 </string>
           </argument>
@@ -107,8 +119,10 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-audio_play_sound_on(rocket_boom, snd_Boom, 0, 0);
+            <string>if (distance_to_object(obj_Player) &lt; sound_range)
+{
+    audio_play_sound_on(rocket_boom, snd_Boom, 0, 0);
+}
 obj_Player.dead = true;
 instance_destroy();
 </string>

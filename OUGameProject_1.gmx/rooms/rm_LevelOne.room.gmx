@@ -12,14 +12,14 @@
   <showcolour>-1</showcolour>
   <code>//music comtroller
 obj_Music.track = snd_Fast;
-obj_Music.gain = 0.3;
+obj_Music.gain = 0.2;
 //spawn</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
+    <w>1000</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
