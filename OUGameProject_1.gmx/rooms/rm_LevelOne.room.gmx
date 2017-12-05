@@ -225,6 +225,41 @@ obj_Music.gain = 0.3;
     <instance objName="obj_Floor" x="96" y="544" name="inst_F3EE5944" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Egg" x="352" y="704" name="inst_B500F81D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Spawn" x="224" y="640" name="inst_6717416E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="2336" y="128" name="inst_B5FA35F8" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="1280" y="0" name="inst_6A177CF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="1408" y="0" name="inst_CD95B8E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="1536" y="0" name="inst_D2632775" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="1664" y="0" name="inst_45A0AFA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="1792" y="0" name="inst_A7C65D5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="1920" y="0" name="inst_CD345562" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="2048" y="0" name="inst_4BE8DE94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="2176" y="0" name="inst_0EAAF7B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="2304" y="0" name="inst_E8A6D6B2" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pit" x="1696" y="736" name="inst_BAC9DFA6" locked="0" code="" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_FloorMoving" x="1792" y="384" name="inst_BC61931C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MovingFloorBounds" x="1664" y="384" name="inst_713CDDD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MovingFloorBounds" x="1952" y="384" name="inst_0F15AB78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="1952" y="544" name="inst_C020CB42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1931" y="434" name="inst_EB3AFC21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1963" y="434" name="inst_1331FB67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1994" y="434" name="inst_1AB06356" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2027" y="434" name="inst_F5C9C4BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearWall" x="2336" y="593" name="inst_614811BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearWall" x="2336" y="446" name="inst_18EFB673" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearWall" x="2336" y="299" name="inst_AFD7F5BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearWall" x="2336" y="152" name="inst_E06DFB67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearSingle" x="2336" y="128" name="inst_ECD99096" locked="0" code="" scaleX="1" scaleY="1.09090912342072" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="2195" y="384" name="inst_7BA74046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="2195" y="448" name="inst_15B92EE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="2195" y="512" name="inst_3832071E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearSingleUp" x="1952" y="574" name="inst_8C0FBFD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearSingleUp" x="1974" y="574" name="inst_F53746FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearSingleUp" x="1996" y="574" name="inst_40DF02B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearSingleUp" x="2018" y="574" name="inst_DA38F0E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearSingleUp" x="2040" y="574" name="inst_F4BE60F4" locked="0" code="" scaleX="0.954545438289642" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearSingleUp" x="2061" y="574" name="inst_CC35BEAA" locked="0" code="" scaleX="0.857142865657806" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="2080" y="544" name="inst_45B4ED96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GearWallUp" x="2080" y="576" name="inst_8E0302AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
