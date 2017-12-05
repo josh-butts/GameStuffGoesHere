@@ -18,6 +18,8 @@
     <sound>sound\snd_Start</sound>
     <sound>sound\snd_Opener</sound>
     <sound>sound\snd_RocketShoot</sound>
+    <sound>sound\snd_ShootShort</sound>
+    <sound>sound\snd_BulletHit</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites Group">
@@ -145,6 +147,7 @@
       <object>objects\obj_Pause</object>
       <object>objects\obj_Music</object>
       <object>objects\obj_Spawn</object>
+      <object>objects\obj_SFX</object>
     </objects>
     <objects name="Enemies Group">
       <object>objects\obj_Robot</object>

@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>movespeed = 14 * obj_Player.attack_direction;
-alarm[0] = 12;
+alarm[0] = 30;
 </string>
           </argument>
         </arguments>
@@ -76,6 +76,22 @@ alarm[0] = 12;
 </string>
           </argument>
         </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_Wall">
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
   </events>

@@ -28,6 +28,12 @@
             <string>image_angle = obj_RotaTurret.direction;
 direction = obj_RotaTurret.direction;
 speed = 10;
+
+sound_range = 450;
+if (distance_to_object(obj_Player) &lt; sound_range)
+{
+    audio_play_sound_on(obj_SFX.shoot, snd_ShootShort, 0, 0);
+}
 </string>
           </argument>
         </arguments>
@@ -58,6 +64,31 @@ speed = 10;
     <event eventtype="4" ename="obj_Wall">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (distance_to_object(obj_Player) &lt; sound_range)
+{
+    audio_play_sound_on(obj_SFX.shoot, snd_BulletHit, 0, 0);
+}
+dead = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>203</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -82,13 +113,17 @@ speed = 10;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>obj_Player</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>dead = true;
+            <string>if (distance_to_object(obj_Player) &lt; sound_range)
+{
+    audio_play_sound_on(obj_SFX.shoot, snd_BulletHit, 0, 0);
+}
+obj_Player.dead = true;
 </string>
           </argument>
         </arguments>

@@ -9,5 +9,5 @@ if (place_meeting(x,y+1,obj_Wall))
     {
         vsp = -jumpspeed;
     }
-    if (key_jump == 1) audio_play_sound_on(sfx, snd_Jump, false, 0);
+    if (key_jump == 1) audio_play_sound_on(obj_SFX.sfx, snd_Jump, false, 0);
 }

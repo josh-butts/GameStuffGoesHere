@@ -32,18 +32,13 @@ hsp_carry = 0;
 vsp = 0;
 jumpspeed = 4;
 movespeed = 4.5;
-sfx = audio_emitter_create();
-audio_emitter_gain(sfx, 0.3);
 allowMovement = true;
 dead = false;
-//dashDistance = 60;
-//dashOnCooldown = false;
 attack_on_cooldown = false;
 attack_direction = 1;
 attack_cooldown = 20;
 alarm[0] = 60;
 score = 0;
-global.attack = false;          // not needed?
 view_object[0] = obj_Player;
 
 </string>
@@ -124,7 +119,7 @@ else if (dead)
     //death sound
     if (!audio_is_playing(snd_Death))
     {
-        audio_play_sound_on(sfx, snd_Death, 0, 0);
+        audio_play_sound_on(obj_SFX.sfx, snd_Death, 0, 0);
     }
     //respawn is now handled in obj_Spawn
 }
@@ -146,7 +141,7 @@ if (move != 0)
 //attack
 if (key_attack &amp;&amp; !attack_on_cooldown)
 {
-    instance_create(x+16,y+16,obj_PlayerAttack);
+    instance_create(x,y,obj_PlayerAttack);
     attack_on_cooldown = true;
     alarm[0] = attack_cooldown;
 }

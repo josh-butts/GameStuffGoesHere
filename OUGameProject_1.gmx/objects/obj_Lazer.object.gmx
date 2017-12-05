@@ -28,10 +28,10 @@
             <string>sound_range = 410;
 speed = 2.7;
 image_speed = 0.7;
-rocket_boom = audio_emitter_create();
+
 if (distance_to_object(obj_Player) &lt; sound_range)
 {
-    audio_play_sound_on(rocket_boom, snd_RocketShoot, 0, 0);
+    audio_play_sound_on(obj_SFX.rocket_boom, snd_RocketShoot, 0, 0);
 }
 juked = false;
 lockon_range = 50;
@@ -94,7 +94,7 @@ speed += 0.02;
             <kind>1</kind>
             <string>if (distance_to_object(obj_Player) &lt; sound_range)
 {
-    audio_play_sound_on(rocket_boom, snd_Boom, 0, 0);
+    audio_play_sound_on(obj_SFX.rocket_boom, snd_Boom, 0, 0);
 }
 instance_destroy();
 </string>
@@ -121,7 +121,7 @@ instance_destroy();
             <kind>1</kind>
             <string>if (distance_to_object(obj_Player) &lt; sound_range)
 {
-    audio_play_sound_on(rocket_boom, snd_Boom, 0, 0);
+    audio_play_sound_on(obj_SFX.rocket_boom, snd_Boom, 0, 0);
 }
 obj_Player.dead = true;
 instance_destroy();
