@@ -47,7 +47,9 @@
       <sprite>sprites\spr_Fire</sprite>
       <sprite>sprites\spr_Turret</sprite>
       <sprite>sprites\spr_OmniTurret</sprite>
+      <sprite>sprites\spr_RotaTurret</sprite>
       <sprite>sprites\spr_Bullet</sprite>
+      <sprite>sprites\spr_DirBullet</sprite>
       <sprite>sprites\spr_Lazer</sprite>
       <sprite>sprites\spr_Pit</sprite>
     </sprites>
@@ -119,6 +121,8 @@
       <object>objects\obj_BulletUp</object>
       <object>objects\obj_Lazer</object>
       <object>objects\obj_OmniTurret</object>
+      <object>objects\obj_DirBullet</object>
+      <object>objects\obj_RotaTurret</object>
     </objects>
     <objects name="Hazards Group">
       <object>objects\obj_Pit</object>
