@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sound_range = 550;
+            <string>sound_range = 410;
 speed = 2.7;
 image_speed = 0.7;
 rocket_boom = audio_emitter_create();
-if (distance_to_object(obj_Player) &lt; 720)
+if (distance_to_object(obj_Player) &lt; sound_range)
 {
     audio_play_sound_on(rocket_boom, snd_RocketShoot, 0, 0);
 }
