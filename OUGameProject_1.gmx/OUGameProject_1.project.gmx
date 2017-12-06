@@ -5,21 +5,25 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_PlayerRoll</sound>
-    <sound>sound\snd_Puzzle</sound>
-    <sound>sound\snd_Jump</sound>
-    <sound>sound\snd_Death</sound>
-    <sound>sound\snd_CoinCollect</sound>
-    <sound>sound\snd_Tadaa</sound>
-    <sound>sound\snd_Respawn</sound>
-    <sound>sound\snd_Vlog</sound>
-    <sound>sound\snd_Fast</sound>
-    <sound>sound\snd_Boom</sound>
-    <sound>sound\snd_Start</sound>
-    <sound>sound\snd_Opener</sound>
-    <sound>sound\snd_RocketShoot</sound>
-    <sound>sound\snd_ShootShort</sound>
-    <sound>sound\snd_BulletHit</sound>
+    <sounds name="SFX Group">
+      <sound>sound\snd_PlayerRoll</sound>
+      <sound>sound\snd_Jump</sound>
+      <sound>sound\snd_Death</sound>
+      <sound>sound\snd_CoinCollect</sound>
+      <sound>sound\snd_Tadaa</sound>
+      <sound>sound\snd_Respawn</sound>
+      <sound>sound\snd_Boom</sound>
+      <sound>sound\snd_RocketShoot</sound>
+      <sound>sound\snd_ShootShort</sound>
+      <sound>sound\snd_BulletHit</sound>
+    </sounds>
+    <sounds name="Music Group">
+      <sound>sound\snd_Puzzle</sound>
+      <sound>sound\snd_Vlog</sound>
+      <sound>sound\snd_Fast</sound>
+      <sound>sound\snd_Start</sound>
+      <sound>sound\snd_Opener</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites Group">
