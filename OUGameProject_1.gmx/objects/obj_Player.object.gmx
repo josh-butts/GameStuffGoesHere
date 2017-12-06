@@ -139,7 +139,7 @@ if (move != 0)
 }
 
 //attack
-if (key_attack &amp;&amp; !attack_on_cooldown)
+if (key_attack &amp;&amp; !attack_on_cooldown &amp;&amp; !dead)
 {
     instance_create(x,y,obj_PlayerAttack);
     attack_on_cooldown = true;
