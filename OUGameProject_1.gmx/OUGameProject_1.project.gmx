@@ -38,6 +38,7 @@
       <sprite>sprites\spr_FloorMoving</sprite>
       <sprite>sprites\spr_Wall</sprite>
       <sprite>sprites\spr_MovingFloorBounds</sprite>
+      <sprite>sprites\spr_MovingBlock</sprite>
     </sprites>
     <sprites name="Gear Wall Sprites Group">
       <sprite>sprites\spr_GearWall</sprite>
