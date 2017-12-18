@@ -133,6 +133,7 @@
     </objects>
     <objects name="Hazards Group">
       <object>objects\obj_Pit</object>
+      <object>objects\obj_DeathWall</object>
       <object>objects\obj_Fire</object>
       <object>objects\obj_Crusher</object>
       <object>objects\obj_CrusherKill</object>
@@ -170,8 +171,9 @@
     <room>rooms\rm_Menu</room>
     <room>rooms\rm_Options</room>
     <room>rooms\rm_LevelSelect</room>
-    <room>rooms\rm_LevelOne</room>
+    <room>rooms\rm_LevelUnassigned</room>
     <room>rooms\rm_AutoScroll</room>
+    <room>rooms\rm_LevelOne</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
