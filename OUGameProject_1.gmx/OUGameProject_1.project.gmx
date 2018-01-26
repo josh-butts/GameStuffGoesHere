@@ -39,6 +39,7 @@
       <sprite>sprites\spr_Wall</sprite>
       <sprite>sprites\spr_MovingFloorBounds</sprite>
       <sprite>sprites\spr_MovingBlock</sprite>
+      <sprite>sprites\spr_Ice</sprite>
     </sprites>
     <sprites name="Gear Wall Sprites Group">
       <sprite>sprites\spr_GearWall</sprite>
@@ -94,6 +95,7 @@
   <scripts name="scripts">
     <script>scripts\scr_GearAnimation.gml</script>
     <script>scripts\scr_NormalMovement.gml</script>
+    <script>scripts\scr_IceMovement.gml</script>
     <script>scripts\scr_GearWallMovement.gml</script>
     <script>scripts\scr_RollingSound.gml</script>
   </scripts>
@@ -108,6 +110,7 @@
       <object>objects\obj_Floor</object>
       <object>objects\obj_FloorMoving</object>
       <object>objects\obj_MovingFloorBounds</object>
+      <object>objects\obj_Ice</object>
     </objects>
     <objects name="Gear Wall Group">
       <object>objects\obj_GearWall</object>
