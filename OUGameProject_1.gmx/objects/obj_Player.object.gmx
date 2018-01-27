@@ -104,6 +104,10 @@ if (allowMovement &amp;&amp; !dead)
     {
         scr_GearWallMovement();
     }
+    else if (place_meeting(x,y+1,obj_Ice))
+    {
+        scr_IceMovement();
+    }
     else
     {
         scr_NormalMovement();
