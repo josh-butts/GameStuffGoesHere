@@ -40,7 +40,9 @@ attack_cooldown = 20;
 alarm[0] = 60;
 score = 0;
 view_object[0] = obj_Player;
-
+// ice variables
+accel = 0.05;
+decel = 0.05;
 </string>
           </argument>
         </arguments>

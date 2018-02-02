@@ -40,6 +40,7 @@
       <sprite>sprites\spr_MovingFloorBounds</sprite>
       <sprite>sprites\spr_MovingBlock</sprite>
       <sprite>sprites\spr_Ice</sprite>
+      <sprite>sprites\spr_Laucher</sprite>
     </sprites>
     <sprites name="Gear Wall Sprites Group">
       <sprite>sprites\spr_GearWall</sprite>
@@ -111,6 +112,7 @@
       <object>objects\obj_FloorMoving</object>
       <object>objects\obj_MovingFloorBounds</object>
       <object>objects\obj_Ice</object>
+      <object>objects\obj_Launcher</object>
     </objects>
     <objects name="Gear Wall Group">
       <object>objects\obj_GearWall</object>
@@ -165,9 +167,18 @@
       <object>objects\obj_Splode</object>
     </objects>
     <object>objects\obj_Coin</object>
-    <object>objects\obj_Checkpoint</object>
-    <object>objects\obj_Spawner</object>
     <object>objects\obj_Key</object>
+    <objects name="Spawner Group">
+      <object>objects\obj_Spawner1</object>
+      <object>objects\obj_Spawner2</object>
+      <object>objects\obj_Spawner3</object>
+      <object>objects\obj_Spawner4</object>
+      <object>objects\obj_Spawner5</object>
+      <object>objects\obj_Spawner6</object>
+      <object>objects\obj_Spawner7</object>
+      <object>objects\obj_Spawner8</object>
+      <object>objects\obj_Checkpoint</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Start</room>
