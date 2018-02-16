@@ -102,10 +102,8 @@ obj_Music.gain = 0.2;
     <instance objName="obj_GearSingleLeft" x="211" y="566" name="inst_E45835C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_GearSingleLeft" x="211" y="544" name="inst_D0699C26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_GearSingleLeft" x="51" y="547" name="inst_3DA2D584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Crusher" x="256" y="32" name="inst_A991734B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_CrusherKill" x="256" y="32" name="inst_828FFE1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Crusher" x="384" y="32" name="inst_6AED9F98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_CrusherKill" x="384" y="32" name="inst_518C3A25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Crusher" x="288" y="32" name="inst_A991734B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_CrusherKill" x="288" y="32" name="inst_828FFE1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TurretDown" x="640" y="32" name="inst_0B195EF5" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="270"/>
     <instance objName="obj_TurretDown" x="960" y="32" name="inst_A55E2E43" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="-90"/>
     <instance objName="obj_TurretUp" x="800" y="736" name="inst_A4956432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
@@ -188,13 +186,11 @@ obj_Music.gain = 0.2;
     <instance objName="obj_Wall" x="1664" y="224" name="inst_40543C20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_GearSingle" x="1664" y="273" name="inst_B79C1699" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_GearSingle" x="1664" y="251" name="inst_263AEA77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Coin" x="272" y="160" name="inst_5B1172E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="480" y="704" name="inst_D28938F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="544" y="704" name="inst_42D17743" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="608" y="704" name="inst_0BDC47B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="672" y="704" name="inst_1EC84088" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="448" y="608" name="inst_8A079B58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Coin" x="400" y="160" name="inst_B2E12108" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="880" y="527" name="inst_E74A6886" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="880" y="495" name="inst_5C377D27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coin" x="880" y="464" name="inst_340A3E02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -216,7 +212,6 @@ obj_Music.gain = 0.2;
     <instance objName="obj_Floor" x="1312" y="288" name="inst_19543359" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_OmniTurret" x="262" y="272" name="inst_24BC078D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="96" y="544" name="inst_F3EE5944" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Egg" x="800" y="640" name="inst_B500F81D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Spawn" x="224" y="640" name="inst_6717416E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2336" y="128" name="inst_B5FA35F8" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1280" y="0" name="inst_6A177CF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -264,6 +259,12 @@ obj_Music.gain = 0.2;
     <instance objName="obj_CrusherKill" x="2432" y="32" name="inst_8CC86BA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Ice" x="128" y="192" name="inst_E00CB0AB" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="128" y="736" name="inst_2B14DB8C" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="2720" y="224" name="inst_9054D64B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="2848" y="224" name="inst_B2F12677" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="2976" y="224" name="inst_47F0E781" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="3072" y="192" name="inst_84BC9CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Egg" x="2816" y="192" name="inst_96A1790E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Egg" x="2944" y="192" name="inst_EBB60555" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -26,14 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize Variables
-grav = .5;
-hsp = 0;
-hsp_carry = 0;
-vsp = 0;
-jumpspeed = 4;
-movespeed = 4.5;
-allowMovement = true;
-dead = false;
+grav = .5; //gravity
+hsp = 0; //current horizontal speed
+hsp_carry = 0; //used in the moving platform code
+vsp = 0; //current vertical speed
+jumpspeed = 4; //vertical speed when you jump
+movespeed = 4.5; //horizontal speed when you move
+allowMovement = true; //???
+dead = false; 
 attack_on_cooldown = false;
 attack_direction = 1;
 attack_cooldown = 20;
@@ -41,7 +41,7 @@ alarm[0] = 60;
 score = 0;
 view_object[0] = obj_Player;
 // ice variables
-accel = 0.05;
+accel = 0.09;
 decel = 0.05;
 </string>
           </argument>

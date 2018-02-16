@@ -31,7 +31,7 @@ spawn_sound = audio_emitter_create();
 audio_emitter_gain(spawn_sound, 0.2);
 if (!instance_exists(obj_Player))
 {
-    instance_create(obj_Spawner.x+32, obj_Spawner.y+32, obj_Player);
+    instance_create(obj_Spawner1.x+32, obj_Spawner1.y+32, obj_Player);
 }
 </string>
           </argument>

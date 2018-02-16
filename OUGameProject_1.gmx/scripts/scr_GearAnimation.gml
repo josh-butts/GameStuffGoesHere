@@ -46,7 +46,16 @@ else if (!place_meeting(x,y,obj_GearWallUp) && !place_meeting(x,y,obj_GearWallLe
     {
         image_xscale = move;
         sprite_index = spr_GearMoving;
-        image_speed = 0.45;
+        
+        //for ice animation
+        if (place_meeting(x, y+1, obj_Ice))
+        {
+            image_speed = 0.45;
+        }
+        else
+        {
+            image_speed = abs(hsp) * 0.1;
+        }
     }
     else 
     {

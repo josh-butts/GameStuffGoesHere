@@ -71,6 +71,12 @@ if (place_meeting(x+hsp,y,obj_Wall))
 }
 x += hsp;
 
+//change direction on collide with other enemy
+if (place_meeting(x+hsp, y, obj_Egg) || place_meeting(x+hsp, y, obj_Robot))
+{
+    dir *= -1;
+}
+
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_Wall))
 {

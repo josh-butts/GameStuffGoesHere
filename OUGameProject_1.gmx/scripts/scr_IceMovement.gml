@@ -3,24 +3,21 @@ if (sign(hsp) != move)
 {
     hsp += decel * move;
 }
+
 if (move == 0 && hsp != 0)
 {
     hsp += decel * -(sign(hsp));
 }
-/*if (hsp == 0)
-{
-    hsp = move * movespeed;
-}
-*/
+
 if (abs(hsp) <0.05 && abs(hsp) >0)
 {
     hsp = 0;
 }
+
 else if (hsp < 4.5 && hsp > -4.5)
 {
     hsp += accel * move
 }
-
 
 if (vsp < 20) vsp += grav;
 
