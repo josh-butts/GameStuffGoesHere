@@ -29,7 +29,7 @@ else if (place_meeting(x,y,obj_GearWallLeft))
 }
 else if (place_meeting(x,y,obj_GearWallUp))
 {
-    if(move != 0)
+    if (move != 0)
     {
         image_xscale = -move;
         sprite_index = spr_GearMoving;

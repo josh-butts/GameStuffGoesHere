@@ -30,8 +30,8 @@ obj_Music.gain = 0.2;
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-10</xoffset>
-    <yoffset>300</yoffset>
+    <xoffset>-26</xoffset>
+    <yoffset>204</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bg_Standin" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
