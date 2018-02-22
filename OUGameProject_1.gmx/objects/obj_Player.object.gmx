@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>spr_Gear</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -94,7 +94,7 @@ key_left = -keyboard_check(ord('A'));
 key_jump = keyboard_check_pressed(vk_space);
 key_up = -keyboard_check(ord('W'));
 key_down = keyboard_check(ord('S'));
-key_attack = keyboard_check_pressed(ord('L'));
+key_attack = mouse_check_button_pressed(mb_left);
 move = key_left + key_right;
 vert_move = key_up + key_down;
 

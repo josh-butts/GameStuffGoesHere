@@ -31,7 +31,6 @@
       <sprite>sprites\spr_GearAttack</sprite>
       <sprite>sprites\spr_GearDeath</sprite>
       <sprite>sprites\spr_GearMoving</sprite>
-      <sprite>sprites\spr_RollingHitBox</sprite>
     </sprites>
     <sprites name="Wall and Floor Sprites Group">
       <sprite>sprites\spr_Floor</sprite>
