@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//movespeed = 20 * obj_Player.attack_direction;
+            <string>
 alarm[0] = 60;
-move_towards_point(mouse_x + random_range(-4, 4), mouse_y + random_range(-4, 4), 20);
+move_towards_point(mouse_x, mouse_y, 20);
 </string>
           </argument>
         </arguments>
