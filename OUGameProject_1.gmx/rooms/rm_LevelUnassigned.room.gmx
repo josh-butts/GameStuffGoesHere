@@ -265,6 +265,7 @@ obj_Music.gain = 0.2;
     <instance objName="obj_Floor" x="3072" y="192" name="inst_84BC9CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Egg" x="2816" y="192" name="inst_96A1790E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Egg" x="2944" y="192" name="inst_EBB60555" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Flybot" x="288" y="640" name="inst_DCE69E31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

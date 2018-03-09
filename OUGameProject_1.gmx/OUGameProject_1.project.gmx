@@ -81,6 +81,7 @@
       <sprite>sprites\spr_Egg</sprite>
       <sprite>sprites\spr_Eggsplode</sprite>
       <sprite>sprites\spr_Splode</sprite>
+      <sprite>sprites\spr_Flybot</sprite>
     </sprites>
     <sprite>sprites\spr_Coin</sprite>
     <sprite>sprites\spr_Checkpoint</sprite>
@@ -164,6 +165,7 @@
       <object>objects\obj_Egg</object>
       <object>objects\obj_Eggsplode</object>
       <object>objects\obj_Splode</object>
+      <object>objects\obj_Flybot</object>
     </objects>
     <object>objects\obj_Coin</object>
     <object>objects\obj_Key</object>
